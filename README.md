@@ -1,10 +1,10 @@
 # PowerShell Auto Shutdown por Inactividad
 
-Este script de PowerShell monitorea el tiempo de inactividad del usuario en el sistema y apaga automáticamente el equipo si se supera un tiempo límite especificado (por defecto, 1 hora).
+Este script de PowerShell ͏v͏igila ͏cuánto tiempo hay͏ de͏ inc͏atividad del usuar͏io en el sistema y apaga͏, autom͏átic͏amen͏te, la máquina si͏ se pasa un l͏ímite específi͏co de tiempo (por defecto, 1 hora).͏
 
 ##  Descripción
 
-El script utiliza funciones de la API de Windows (`user32.dll`) para obtener el tiempo transcurrido desde la última interacción del usuario (teclado o ratón). Si el usuario permanece inactivo durante más tiempo del configurado, el sistema se apagará automáticamente.
+El script utiliza funciones de la API de Windows (`user32.dll`) para obtener el tiempo transcurrido desde la última acción  del usuario (teclado o ratón). Si el usuario permanece inactivo durante más tiempo del configurado, el sistema se apagará automáticamente.
 
 ##  Cómo funciona
 
